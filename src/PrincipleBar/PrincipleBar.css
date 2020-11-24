@@ -1,0 +1,33 @@
+body {
+  direction: rtl;
+  margin: auto;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f1f1f1de;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  width: 15%;
+}
+
+.mainSource {
+  margin-top: 5%;
+  width: 75%;
+  float: left;
+  margin-left: 5%;
+}
+
+.nav-buttons {
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  float: right;
+}
+
+.nav-buttons:hover {
+  background-color: #d6d6d6;
+}

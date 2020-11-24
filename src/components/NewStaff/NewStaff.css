@@ -1,0 +1,31 @@
+.filling{
+    margin-right: 37%;
+    margin-left: 37%;
+}
+
+.container{
+    position: absolute;
+    top:10% ;  
+    margin-right: 30%;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    width: 30%;
+    background-color: white;
+
+}
+
+label{
+    height: 20%;
+            direction: rtl;
+
+}
+
+.form-group , .form{
+    background-color: white;
+    width: 80%;
+    margin-right: 10%;
+}
+
+
+

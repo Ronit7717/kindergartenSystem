@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { Sign } from './components/Sign/Sign';
+import { Crew } from './components/Crew/Crew';
+import { NewStaff } from './components/NewStaff/NewStaff';
+import { Presence } from './components/Presence/Presence';
+import { AllPresence } from './components/AllPresence/AllPresence';
+import { PrincipleBar } from './PrincipleBar/PrincipleBar';
+import { TeacherBar } from './TeacherBar/TeacherBar';
+
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <PrincipleBar/>,
   document.getElementById('root')
 );
 

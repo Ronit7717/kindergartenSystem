@@ -1,0 +1,169 @@
+
+.subject{
+    text-align: right;
+    background-color: rgb(218, 214, 214);
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    height: 50px;
+}
+
+.main{
+    width: 90%;
+    position: relative;
+    right: -35%;
+    margin-top: 0%;
+}
+
+.subject:hover{
+  background-color: rgb(153, 153, 153);
+}
+
+.content{
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    text-align: start;
+}
+
+label{
+    margin-left: 0.01%;
+    font-size: larger;
+    position: relative;
+}
+
+.label-div{
+    margin-left: 100px;
+    width: auto;
+    float: right;
+    position: relative;
+    right: -8%;
+}
+
+.showcon{
+    float: right;
+    margin-left: 100px;
+}
+
+.status{
+    width: 120px;
+}
+
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .chooseStatus {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: auto;
+    z-index: 1;
+  }
+  
+  .chooseStatus a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .chooseStatus a:hover {background-color: #ddd}
+  
+  .dropdown:hover .chooseStatus {
+    display: block;
+  }
+
+  .openStatus{
+    background-color: pink;
+    width: 100px;
+
+  }
+
+  .status , .showcon{
+    background-color: white;
+
+  }
+
+  .status , .openStatus, .showcon{
+    color: black;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+  }
+  
+  .status:hover, .dropdown:hover  {
+    background-color: rgb(195, 189, 189);
+  }
+  
+
+  @media screen and (max-width: 1230px) {
+    .status-label {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    .label-div {
+      margin-left: 50px;
+    }
+  }
+
+  @media screen and (max-width: 910px) {
+    .label-div {
+      font-size: 14px;
+
+    }
+    .openStatus{
+      font-size: 10px;
+      width: 80px;
+    }
+    .main{
+      width: 100%;
+      position: relative;
+      right: -40%;
+    }
+
+
+  }
+
+  @media screen and (max-width: 800px) {
+    .main{
+      width: 100%;
+      position: relative;
+    }
+    .label-div {
+      font-size: 10px;
+      margin-left: 200px;
+
+    }
+
+  }
+
+  @media screen and (max-width: 700px) {
+    .label-div {
+      margin-left:100px;
+
+    }
+
+  }
+
+  @media screen and (max-width: 550px) {
+    .label-div {
+      margin-left:50px;
+
+    }
+
+  }
+
+
+
+
+
+
+  

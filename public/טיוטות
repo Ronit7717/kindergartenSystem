@@ -1,0 +1,65 @@
+                {/*<h3>הכנסת אנשי צוות חדשים</h3>
+                <br></br>
+                <br></br>
+                <TextField
+                    defaultValue = {this.state.Id_num}
+                    label="מספר זהות"
+                    Required
+                    onChange={(ev) => this.fillDetails("ID", ev)}
+                    className="filling"
+                    className="ID"    
+                    variant="outlined"></TextField>
+                <br></br>
+                <br></br>
+                <MyTextField
+                    Required
+                    label="שם פרטי"
+                    onChange={(ev) => this.fillDetails("f_name", ev)}
+                    className="filling"
+                    variant="outlined"
+                    ></MyTextField>
+                <TextField
+                label="שם משפחה"
+                Required
+                onChange={(ev) => this.fillDetails("l_name", ev)}
+                    className="filling"
+                    variant="outlined"></TextField>
+                <br></br>
+                <br></br>
+                <TextField
+                    label="כתובת"
+                    onChange={(ev) => this.fillDetails("adress", ev)}
+                    className="filling"
+                    variant="outlined"></TextField>
+                <br></br>
+                <br></br>
+                <TextField
+                    label="מייל"
+                    onChange={(ev) => this.fillDetails("email", ev)}    
+                    className="filling"
+                    variant="outlined"></TextField>
+                <br></br>
+                <br></br>
+                <MyTextField
+                    label="מספר טלפון 1"
+                    Required
+                    onChange={(ev) => this.fillDetails("phone1", ev)}
+                    className="filling"
+                    variant="outlined"></MyTextField>
+                <TextField
+                label="מספר טלפון 2"
+                Required
+                onChange={(ev) => this.fillDetails("phone2", ev)}
+                className="filling"
+                variant="outlined"></TextField>
+
+                <br></br>
+                <br></br>
+                <br></br>
+
+                <Button
+                variant="outlined"
+                    size="large"
+                    onClick={this.handleClick}>
+                אישור
+                </Button>*/}

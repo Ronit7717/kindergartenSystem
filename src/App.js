@@ -1,26 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Presence from '../src/components/Presence/Presence'
+import Teacher from '../src/components/Teacher/Teacher';
 
-function App() {
-  return (
+
+class App extends React.Component{
+
+  constructor(props){
+    super(props);
+    this.state = {apiResponse:""};
+  }
+
+  callAPI(){
+    fetch("http://localhost:9000/testAPI")
+    .then(res=>res.text())
+    .then(res=>this.setState({apiResponse:res}));
+  }
+
+  componentWillMount(){
+    this.callAPI();
+  }
+
+render(){
+    let list = [];
+    for(let i = 0 ; i < 10 ; i++){
+      list.push (<Presence 
+      num_of_kids ={Math.round( (Math.random(30)*31)+10)}
+      kindergarten_name = "גן הורדים"
+      teacher = {Boolean(Math.round(Math.random()))}
+      assistant = {Boolean(Math.round(Math.random()))}/>)
+    }
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Teacher/>
     </div>
   );
-}
+}}
 
 export default App;

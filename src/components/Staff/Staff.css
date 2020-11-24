@@ -1,0 +1,17 @@
+.button{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(77, 77, 219);
+    height: 90px;
+    width: 90px;
+    text-align-last: auto;
+}
+
+.new-staff{
+    width: 30%;
+    position: relative;
+    right: 34%;
+    top: -10%;
+}
